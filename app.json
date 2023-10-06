@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "GuessTheNumber",
+    "name": "Guess The Number",
     "slug": "GuessTheNumber",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,6 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "font": [
+      {
+        "name": "LilyScriptOne"
+      }
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,12 +24,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.shafin1512023.GuessTheNumber"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "487b0c36-69ba-4739-a2e4-70a4ef7a0fb5"
+      }
     }
   }
 }
